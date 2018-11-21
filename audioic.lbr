@@ -467,49 +467,48 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/288945048AD7C7019_20_1_2
 <text x="20.32" y="17.78" size="1.27" layer="94">LM741</text>
 </symbol>
 <symbol name="ADAU1452_POWER">
-<pin name="DGND_1" x="-5.08" y="27.94" length="middle"/>
-<pin name="IOVDD_2" x="-5.08" y="25.4" length="middle"/>
-<pin name="VDRIVE_3" x="-5.08" y="22.86" length="middle"/>
-<pin name="AGND_6" x="-5.08" y="20.32" length="middle"/>
-<pin name="AVDD_7" x="-5.08" y="17.78" length="middle"/>
-<pin name="PGND_14" x="-5.08" y="15.24" length="middle"/>
-<pin name="PVDD_15" x="-5.08" y="12.7" length="middle"/>
-<pin name="PLLFILT_16" x="-5.08" y="10.16" length="middle"/>
-<pin name="DGND_17" x="-5.08" y="7.62" length="middle"/>
-<pin name="IOVDD_18" x="-5.08" y="5.08" length="middle"/>
-<pin name="DGND_19" x="-5.08" y="2.54" length="middle"/>
-<pin name="DVDD_20" x="38.1" y="2.54" length="middle" rot="R180"/>
-<pin name="DVDD_35" x="38.1" y="5.08" length="middle" rot="R180"/>
-<pin name="DGND_36" x="38.1" y="7.62" length="middle" rot="R180"/>
-<pin name="DGND_37" x="38.1" y="10.16" length="middle" rot="R180"/>
-<pin name="IOVDD_38" x="38.1" y="12.7" length="middle" rot="R180"/>
-<pin name="DVDD_53" x="38.1" y="15.24" length="middle" rot="R180"/>
-<pin name="DGND_54" x="38.1" y="17.78" length="middle" rot="R180"/>
-<pin name="DGND_55" x="38.1" y="20.32" length="middle" rot="R180"/>
-<pin name="IOVDD_56" x="38.1" y="22.86" length="middle" rot="R180"/>
-<pin name="DVDD_71" x="38.1" y="25.4" length="middle" rot="R180"/>
-<pin name="DGND_72" x="38.1" y="27.94" length="middle" rot="R180"/>
-<wire x1="0" y1="40.64" x2="33.02" y2="40.64" width="0.254" layer="94"/>
-<wire x1="33.02" y1="40.64" x2="33.02" y2="0" width="0.254" layer="94"/>
+<pin name="DGND_1" x="38.1" y="22.86" length="middle" rot="R180"/>
+<pin name="IOVDD_2" x="-5.08" y="20.32" length="middle"/>
+<pin name="VDRIVE_3" x="-5.08" y="43.18" length="middle"/>
+<pin name="AGND_6" x="38.1" y="27.94" length="middle" rot="R180"/>
+<pin name="AVDD_7" x="-5.08" y="25.4" length="middle"/>
+<pin name="PGND_14" x="38.1" y="7.62" length="middle" rot="R180"/>
+<pin name="PVDD_15" x="-5.08" y="7.62" length="middle"/>
+<pin name="PLLFILT_16" x="-5.08" y="2.54" length="middle"/>
+<pin name="DGND_17" x="38.1" y="20.32" length="middle" rot="R180"/>
+<pin name="IOVDD_18" x="-5.08" y="17.78" length="middle"/>
+<pin name="DGND_19" x="38.1" y="40.64" length="middle" rot="R180"/>
+<pin name="DVDD_20" x="-5.08" y="38.1" length="middle"/>
+<pin name="DVDD_35" x="-5.08" y="35.56" length="middle"/>
+<pin name="DGND_36" x="38.1" y="38.1" length="middle" rot="R180"/>
+<pin name="DGND_37" x="38.1" y="17.78" length="middle" rot="R180"/>
+<pin name="IOVDD_38" x="-5.08" y="15.24" length="middle"/>
+<pin name="DVDD_53" x="-5.08" y="33.02" length="middle"/>
+<pin name="DGND_54" x="38.1" y="35.56" length="middle" rot="R180"/>
+<pin name="DGND_55" x="38.1" y="15.24" length="middle" rot="R180"/>
+<pin name="IOVDD_56" x="-5.08" y="12.7" length="middle"/>
+<pin name="DVDD_71" x="-5.08" y="30.48" length="middle"/>
+<pin name="DGND_72" x="38.1" y="33.02" length="middle" rot="R180"/>
+<wire x1="0" y1="50.8" x2="33.02" y2="50.8" width="0.254" layer="94"/>
+<wire x1="33.02" y1="50.8" x2="33.02" y2="0" width="0.254" layer="94"/>
 <wire x1="33.02" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="40.64" width="0.254" layer="94"/>
-<text x="0" y="30.734" size="1.778" layer="95">&gt;NAME</text>
+<wire x1="0" y1="0" x2="0" y2="50.8" width="0.254" layer="94"/>
+<text x="0" y="51.054" size="1.778" layer="95">&gt;NAME</text>
 <text x="0" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<text x="2.54" y="35.56" size="1.778" layer="94">ADAU1452
+<text x="2.54" y="45.72" size="1.778" layer="94">ADAU1452
 Power Pins</text>
-<pin name="DGND_25" x="38.1" y="30.48" length="middle" rot="R180"/>
-<pin name="GND_EP" x="38.1" y="33.02" length="middle" rot="R180"/>
-<pin name="GND_EP1" x="38.1" y="35.56" length="middle" rot="R180"/>
+<pin name="DGND_25" x="38.1" y="10.16" length="middle" rot="R180"/>
+<pin name="GND_EP" x="38.1" y="2.54" length="middle" rot="R180"/>
+<pin name="GND_EP1" x="38.1" y="5.08" length="middle" rot="R180"/>
 </symbol>
 <symbol name="ADAU1452_SPDIF">
 <pin name="SPDIFOUT_5" x="0" y="2.54" length="middle"/>
 <pin name="SPDIFIN_4" x="0" y="7.62" length="middle"/>
-<wire x1="5.08" y1="0" x2="5.08" y2="12.7" width="0.254" layer="94"/>
-<wire x1="5.08" y1="12.7" x2="5.08" y2="15.24" width="0.254" layer="94"/>
-<wire x1="5.08" y1="15.24" x2="30.48" y2="15.24" width="0.254" layer="94"/>
-<wire x1="30.48" y1="15.24" x2="30.48" y2="0" width="0.254" layer="94"/>
-<wire x1="30.48" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
-<text x="15.24" y="10.16" size="1.778" layer="94">ADAU1452
+<wire x1="5.08" y1="0" x2="5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="15.24" x2="22.86" y2="15.24" width="0.254" layer="94"/>
+<wire x1="22.86" y1="15.24" x2="22.86" y2="0" width="0.254" layer="94"/>
+<wire x1="22.86" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<text x="7.62" y="10.16" size="1.778" layer="94">ADAU1452
 SPDIF</text>
 </symbol>
 <symbol name="ADAU1452_AUXADC">
@@ -559,16 +558,16 @@ Config &amp; Control</text>
 <pin name="BCLK_OUT1_43" x="0" y="7.62" length="middle"/>
 <pin name="SDATA_OUT1_44" x="0" y="5.08" length="middle"/>
 <pin name="MP6_45" x="0" y="2.54" length="middle"/>
-<pin name="MP7_46" x="96.52" y="2.54" length="middle" rot="R180"/>
-<pin name="LRCLK_OUT2/MP8_47" x="96.52" y="5.08" length="middle" rot="R180"/>
-<pin name="BCLK_OUT2_48" x="96.52" y="7.62" length="middle" rot="R180"/>
-<pin name="SDATA_OUT2_49" x="96.52" y="10.16" length="middle" rot="R180"/>
-<pin name="LRCLK_OUT3/MP9_50" x="96.52" y="12.7" length="middle" rot="R180"/>
-<pin name="BCLK_OUT3_51" x="96.52" y="15.24" length="middle" rot="R180"/>
-<pin name="SDATA_OUT3_52" x="96.52" y="17.78" length="middle" rot="R180"/>
-<wire x1="5.08" y1="27.94" x2="91.44" y2="27.94" width="0.254" layer="94"/>
-<wire x1="91.44" y1="27.94" x2="91.44" y2="0" width="0.254" layer="94"/>
-<wire x1="91.44" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<pin name="MP7_46" x="63.5" y="2.54" length="middle" rot="R180"/>
+<pin name="LRCLK_OUT2/MP8_47" x="63.5" y="5.08" length="middle" rot="R180"/>
+<pin name="BCLK_OUT2_48" x="63.5" y="7.62" length="middle" rot="R180"/>
+<pin name="SDATA_OUT2_49" x="63.5" y="10.16" length="middle" rot="R180"/>
+<pin name="LRCLK_OUT3/MP9_50" x="63.5" y="12.7" length="middle" rot="R180"/>
+<pin name="BCLK_OUT3_51" x="63.5" y="15.24" length="middle" rot="R180"/>
+<pin name="SDATA_OUT3_52" x="63.5" y="17.78" length="middle" rot="R180"/>
+<wire x1="5.08" y1="27.94" x2="58.42" y2="27.94" width="0.254" layer="94"/>
+<wire x1="58.42" y1="27.94" x2="58.42" y2="0" width="0.254" layer="94"/>
+<wire x1="58.42" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
 <wire x1="5.08" y1="0" x2="5.08" y2="27.94" width="0.254" layer="94"/>
 <text x="5.08" y="28.194" size="1.778" layer="95">&gt;NAME</text>
 <text x="5.08" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
@@ -582,15 +581,15 @@ SDATA OUT/MP</text>
 <pin name="BCLK_IN1_60" x="0" y="7.62" length="middle"/>
 <pin name="LRCLK_IN1/MP11_61" x="0" y="5.08" length="middle"/>
 <pin name="SDATA_IN1_62" x="0" y="2.54" length="middle"/>
-<pin name="BCLK_IN2_65" x="63.5" y="2.54" length="middle" rot="R180"/>
-<pin name="LRCLK_IN2/MP12_66" x="63.5" y="5.08" length="middle" rot="R180"/>
-<pin name="SDATA_IN2_67" x="63.5" y="7.62" length="middle" rot="R180"/>
-<pin name="BCLK_IN3_68" x="63.5" y="10.16" length="middle" rot="R180"/>
-<pin name="LRCLK_IN3/MP13_69" x="63.5" y="12.7" length="middle" rot="R180"/>
-<pin name="SDATA_IN3_70" x="63.5" y="15.24" length="middle" rot="R180"/>
-<wire x1="5.08" y1="25.4" x2="58.42" y2="25.4" width="0.254" layer="94"/>
-<wire x1="58.42" y1="25.4" x2="58.42" y2="0" width="0.254" layer="94"/>
-<wire x1="58.42" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<pin name="BCLK_IN2_65" x="60.96" y="2.54" length="middle" rot="R180"/>
+<pin name="LRCLK_IN2/MP12_66" x="60.96" y="5.08" length="middle" rot="R180"/>
+<pin name="SDATA_IN2_67" x="60.96" y="7.62" length="middle" rot="R180"/>
+<pin name="BCLK_IN3_68" x="60.96" y="10.16" length="middle" rot="R180"/>
+<pin name="LRCLK_IN3/MP13_69" x="60.96" y="12.7" length="middle" rot="R180"/>
+<pin name="SDATA_IN3_70" x="60.96" y="15.24" length="middle" rot="R180"/>
+<wire x1="5.08" y1="25.4" x2="55.88" y2="25.4" width="0.254" layer="94"/>
+<wire x1="55.88" y1="25.4" x2="55.88" y2="0" width="0.254" layer="94"/>
+<wire x1="55.88" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
 <wire x1="5.08" y1="0" x2="5.08" y2="25.4" width="0.254" layer="94"/>
 <text x="5.08" y="25.654" size="1.778" layer="95">&gt;NAME</text>
 <text x="5.08" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
